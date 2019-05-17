@@ -1,0 +1,65 @@
+.squad-wrapper{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.clubinfo-wrapper{
+    .club-info{
+        border-bottom: 1px solid black;
+        .club-info-row{
+            display: inline-flex;
+            padding: 2px;
+            label{
+                margin-right: 5px;
+                margin-bottom: 0;
+            }
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .coach-info{
+        border-bottom: 1px solid black;
+        .coach-info-row{
+            display: inline-flex;
+            padding: 2px;
+            label{
+                margin-right: 5px;
+                margin-bottom: 0;
+            }
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.pitch{
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    .player-section{
+        border-bottom: 2px solid white;
+        
+        .player{
+            height: 50px;
+            width: 100%;
+            margin-bottom: 5px;
+            display: table;
+            text-align: center;
+
+            p{
+                display: table-cell;
+                vertical-align: middle;
+                color: white;
+            }
+            
+        }
+    }
+}
+
+    
+

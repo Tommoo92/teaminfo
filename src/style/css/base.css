@@ -1,0 +1,170 @@
+.inputOuter {
+  display: flex;
+  border-bottom: 1px solid black; }
+  .inputOuter .inputInner {
+    height: 100px;
+    margin: 0 auto;
+    position: relative; }
+    .inputOuter .inputInner select {
+      background-color: #efdb02;
+      color: black;
+      letter-spacing: 2px;
+      border: 1px solid black; }
+
+.teams {
+  border-bottom: 1px solid black; }
+  .teams .teamOuterButton {
+    padding: 6px;
+    overflow: hidden; }
+  .teams .teamButton {
+    text-align: center;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    height: 20px; }
+
+.squad-wrapper {
+  padding-right: 0;
+  padding-left: 0; }
+
+.clubinfo-wrapper .club-info {
+  border-bottom: 1px solid black; }
+  .clubinfo-wrapper .club-info .club-info-row {
+    display: inline-flex;
+    padding: 2px; }
+    .clubinfo-wrapper .club-info .club-info-row label {
+      margin-right: 5px;
+      margin-bottom: 0; }
+    .clubinfo-wrapper .club-info .club-info-row p {
+      margin-bottom: 0; }
+
+.clubinfo-wrapper .coach-info {
+  border-bottom: 1px solid black; }
+  .clubinfo-wrapper .coach-info .coach-info-row {
+    display: inline-flex;
+    padding: 2px; }
+    .clubinfo-wrapper .coach-info .coach-info-row label {
+      margin-right: 5px;
+      margin-bottom: 0; }
+    .clubinfo-wrapper .coach-info .coach-info-row p {
+      margin-bottom: 0; }
+
+.pitch {
+  height: auto;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  .pitch .player-section {
+    border-bottom: 2px solid white; }
+    .pitch .player-section .player {
+      height: 50px;
+      width: 100%;
+      margin-bottom: 5px;
+      display: table;
+      text-align: center; }
+      .pitch .player-section .player p {
+        display: table-cell;
+        vertical-align: middle;
+        color: white; }
+
+html {
+  height: 100%; }
+  html body {
+    background: url("../../../src/media/pitch.png");
+    height: inherit; }
+    html body #root {
+      height: inherit; }
+      html body #root .wrapper {
+        height: inherit; }
+        html body #root .wrapper .menu {
+          height: 100px;
+          background-color: white; }
+          html body #root .wrapper .menu .menu-Upper {
+            height: 50%; }
+            html body #root .wrapper .menu .menu-Upper .logo-wrapper {
+              height: 100%; }
+              html body #root .wrapper .menu .menu-Upper .logo-wrapper .logoIcon {
+                height: 100%; }
+          html body #root .wrapper .menu .menu-Lower {
+            height: 50%;
+            background-color: #333; }
+        html body #root .wrapper .main {
+          background-color: white;
+          height: auto; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  text-decoration: none;
+  color: white; }
+
+.text-center {
+  text-align: center; }
+
+.green {
+  background-color: green;
+  color: white;
+  font-weight: bold; }
+
+.red {
+  background-color: red !important;
+  color: black !important;
+  font-weight: bold !important; }
+
+.blue {
+  background-color: blue;
+  color: white;
+  font-weight: bold; }
+
+.yellow {
+  background-color: yellow;
+  color: black;
+  font-weight: bold; }
+
+.black {
+  background-color: black;
+  color: white;
+  font-weight: bold; }
+
+.brown {
+  background-color: brown;
+  color: white;
+  font-weight: bold; }
+
+.sky {
+  background-color: #12A0D7;
+  color: black;
+  font-weight: bold; }
+
+.maroon {
+  background-color: #8E1F2F;
+  color: white;
+  font-weight: bold; }
+
+.purple {
+  background-color: purple;
+  color: white;
+  font-weight: bold; }
+
+.violet {
+  background-color: violet;
+  color: white;
+  font-weight: bold; }

@@ -1,0 +1,136 @@
+@import 'inputArea.scss';
+@import 'team.scss';
+
+html{
+    height: 100%;
+    body{
+        background: url('../../../src/media/pitch.png');
+        height: inherit;
+        
+        #root{
+            height: inherit;
+
+            .wrapper{
+                height: inherit;
+                .menu{
+                    height: 100px;
+                    background-color: white;
+
+                    .menu-Upper{
+                        height: 50%; 
+                        .logo-wrapper{
+                            height: 100%;
+                            .logoIcon{
+                                height: 100%;;
+                            }
+                        }
+                    }
+
+                    .menu-Lower{
+                        height: 50%;
+                        background-color: #333;
+                    }
+                }
+                
+                .main{
+                    background-color: white;
+                    height: auto;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: white;
+  }
+
+.text-center{
+    text-align: center;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.red{
+    background-color: red !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.yellow{
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.brown{
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+}
+
+.sky{
+    background-color: #12A0D7;
+    color: black;
+    font-weight: bold;
+}
+
+.maroon{
+    background-color: #8E1F2F;
+    color: white;
+    font-weight: bold;
+}
+
+.purple{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+.violet{
+    background-color: violet;
+    color: white;
+    font-weight: bold;
+}

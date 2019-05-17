@@ -1,0 +1,24 @@
+{
+  "name": "teaminfo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4",
+    "react": "^16.4.2",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass --include-path scss src/style/scss/base.scss   src/style/css/base.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "devDependencies": {}
+}

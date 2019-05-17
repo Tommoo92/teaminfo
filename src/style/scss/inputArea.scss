@@ -1,0 +1,33 @@
+.inputOuter{
+    display: flex;
+    border-bottom: 1px solid black;
+    .inputInner{
+        height: 100px;
+        margin: 0 auto;
+        position: relative;
+        select{
+            background-color: #efdb02;
+            color: black;
+            letter-spacing: 2px;
+            border: 1px solid black;
+        }
+    }
+} 
+
+.teams{
+    border-bottom: 1px solid black;
+
+    .teamOuterButton{
+        padding: 6px;
+        overflow: hidden;
+    }
+    .teamButton{
+        text-align: center;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        height: 20px;
+    }
+
+}
+
