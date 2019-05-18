@@ -78,6 +78,7 @@ export class Team extends React.Component {
             attackers: attackers,
             colors: nextProps.pickedTeam.clubColors
         });
+
     }
     render(){
         const goalkeepers = this.state.goalkeepers.map((goalkeeper, i) => {
