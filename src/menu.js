@@ -9,12 +9,11 @@ export class Menu extends React.Component {
           <div className="menu-Upper col-sm-12">
             <div className="logo-wrapper">
               <img src="./football.ico" className="logoIcon" alt=""></img>
-              <div className="logoText">Teaminfo</div>
             </div>
           </div>
           <div className="menu-Lower col-sm-12">
-            <nav>
-              <ul>
+            {/* <nav>
+               <ul>
                 <li>
                   <Link to="/">Squads</Link>
                 </li>
@@ -24,8 +23,8 @@ export class Menu extends React.Component {
                 <li>
                   <Link to="/users/">Users</Link>
                 </li>
-              </ul>
-            </nav>
+              </ul> 
+            </nav> */}
           </div>
         </div>
     );

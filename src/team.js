@@ -32,13 +32,6 @@ export class Team extends React.Component {
             };
         };      
         
-        var coachImageUrl;
-        $.when(getFirstImageFromGoogle(coach.name)).then(function successHandler(data){
-                  console.log(data);
-              },function errorHandler(){
-                  console.log('Ajax call failed')
-          });
-
         this.state = {           
             pickedTeam: this.props.pickedTeam,
             showPickedTeam: this.props.showPickedTeam,
@@ -47,7 +40,6 @@ export class Team extends React.Component {
             defenders: defenders,
             midfielders: midfielders,
             attackers: attackers,
-            coachImageUrl: coachImageUrl,
             colors: this.props.pickedTeam.clubColors
         }; 
     }

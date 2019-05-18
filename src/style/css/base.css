@@ -89,6 +89,8 @@ html {
           html body #root .wrapper .menu .menu-Lower {
             height: 50%;
             background-color: #333; }
+            html body #root .wrapper .menu .menu-Lower h1 h2 {
+              color: white; }
         html body #root .wrapper .main {
           background-color: white;
           height: auto; }
