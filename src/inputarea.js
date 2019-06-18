@@ -7,9 +7,16 @@ export class InputAreaCompetition extends React.Component {
 
         super(props);
         that = this;
+
+        this.state = {
+            choosenField : "defaultField"
+        }
  
       }
     competitionChange(event){
+        that.setState({
+            choosenField :  event.target.value
+        });
         that.props.competitionChanged(event.target.value)
     }
     render(){
@@ -26,7 +33,7 @@ export class InputAreaCompetition extends React.Component {
             <div className="inputOuter col-sm-12">
                 <div className="inputInner col-sm-12 col-md-6 form-group">
                     <label> Pick a competition </label>
-                    <select className="form-control" onChange={this.competitionChange} value="defaultField">
+                    <select className="form-control" onChange={this.competitionChange} value={this.props.choosenField}>
                         <option value="defaultField"> -- Select --</option>
                         {competitions}
                     </select>
